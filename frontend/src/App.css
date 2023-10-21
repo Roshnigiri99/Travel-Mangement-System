@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #ff7700;
+  --secondary-color: #e03213;
+  --heading-color: #000000;
+  --text-color: #050912;
+  --font-name: "Montserrat", sans-serif;
+  --subtitle-font-name: "Island Moments", cursive;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:var(--heading-color);
+  border-radius: 10px;
+  border-color: #012121;
+
+
+  
+}
+
+body {
+  font-family: var(--font-name);
+  
+}
+
+section {
+  padding: 50px 0px;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:#000000;
+}
+
+a {
+  text-decoration: none;
+  color:#000000;
+}
+ul {
+  list-style: none;
+}
+
+.primary__btn {
+  background:#f44545!important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 0.4rem 1.5rem !important;
+}
+
+.primary__btn a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fdfdfd;
+}
+.primary__btn a:hover {
+  color:#0c0c0c;
+}
+.secondary__btn {
+  background:rgb(177, 194, 226)!important;
+  border: none !important;
+  font-weight: 500 !important;
+  border-radius: 50px !important;
+  padding: 0.4rem 1.5rem !important;
+}
+
+.secondary__btn a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color:#000000;
+}
+
+.secondary__btn a:hover {
+  color:rgb(255, 255, 255);
+}
+
+.section__subtitle {
+  background:#3500e1;
+  font-family:var(--subtitle-font-name);
+  width:max-content;
+  padding-right: 10px;
+  padding-left: 10px;
+
+
+  border-radius: 20px;
+  font-weight: 550;
+  font-size: 2rem;
+  color:#ffffff;
+}
